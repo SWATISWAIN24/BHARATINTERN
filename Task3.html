@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+    }
+
+header {
+  background-color:black;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.signin-btn {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url('https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg');
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.hero p {
+  color: #fff;
+}
+
+.btn {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="https://golearnershub.com/wp-content/uploads/2020/09/Netflix-Logo.png" alt="Netflix Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Latest</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+      <button class="signin-btn">Sign In</button>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h1>Unlimited movies, TV shows, and more.</h1>
+      <p>Watch anywhere. Cancel anytime.</p>
+      
+      <button class="btn">Watch Free For 30 Days</button>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Netflix, Inc.</p>
+  </footer>
+</body>
+</html>
